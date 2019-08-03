@@ -29,6 +29,14 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.text-primary {
+  color: #f4623a !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #d6370c !important;
+}
+
 .bg-primary {
   background-color: #f4623a !important;
 }
