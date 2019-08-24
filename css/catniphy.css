@@ -37,10 +37,6 @@ a.text-primary:hover, a.text-primary:focus {
   color: #d6370c !important;
 }
 
-nav.navbar-scrolled img {
-  filter: invert(1);
-}
-
 .bg-primary {
   background-color: #f4623a !important;
 }
