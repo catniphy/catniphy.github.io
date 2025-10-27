@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "brand": "冬冬酱的猫",
+    "weibo": "微博",
+    "language": "语言"
+  },
+  "macy": {
+    "breed": "本地长毛猫",
+    "tags": "女王，酷，警惕，好奇",
+    "likes": "吃的，零食是生命里的全部"
+  },
+  "miki": {
+    "breed": "蓝手套色布偶",
+    "tags": "粘人，呆萌，大智若愚，混世大魔",
+    "likes": "玩具，铲屎官头发，玩水"
+  },
+  "subscribe": "欢迎订阅",
+  "image": {
+    "curious-macy": "好奇的Macy",
+    "sleep-together": "一起觉觉",
+    "feeling-blue": "忧郁的Miki",
+    "miki-blue-eyes": "Miki的蓝眼睛",
+    "neutered": "绝育手术后",
+    "gaze":"盯"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "brand": "catniphy",
+    "weibo": "Weibo",
+    "language": "Language"
+  },
+  "macy": {
+    "breed": "Domestic medium hair",
+    "tags": "A little queen — cool, cautious, and curious",
+    "likes": "Food and treats are the meaning of life"
+  },
+  "miki": {
+    "breed": "Blue mitted ragdoll",
+    "tags": "A little troublemaker - clingy, cute, and \"clever\"",
+    "likes": "Toys, water, and human's hair"
+  },
+  "subscribe": "Subscribe",
+  "image": {
+    "curious-macy": "curious Macy",
+    "sleep-together": "sleep together",
+    "feeling-blue": "feeling blue",
+    "miki-blue-eyes": "Miki's blue eyes",
+    "neutered": "neutered",
+    "gaze":"gaze"
+  }
+}
