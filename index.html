@@ -21,14 +21,13 @@
   <link rel="shortcut icon" href="favicon.ico" />
   <link href="css/fontcustom.css" rel="stylesheet">
   <link href="css/catniphy.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">冬冬酱的猫</a>
+      <a class="navbar-brand js-scroll-trigger" data-i18n="nav.brand" href="#page-top">冬冬酱的猫</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -51,9 +50,22 @@
           </li>
           <li class="nav-item">
             <a class="pointer nav-link" href="https://www.weibo.com/catniphy" target="_blank">
-              <i class="fa fa-weibo"></i> 微博 <i class="fa fa-external-link"></i>
+              <i class="fa fa-weibo"></i> <span data-i18n="nav.weibo">微博</span> <i class="fa fa-external-link"></i>
             </a>
           </li>
+
+          <!-- 🔽 language dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav.language">语言</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
+              <a class="dropdown-item lang-switch" href="#" data-lang="zh">中文</a>
+              <a class="dropdown-item lang-switch" href="#" data-lang="en">English</a>
+            </div>
+          </li>
+
         </ul>
       </div>
     </div>
@@ -71,9 +83,9 @@
             <hr class="divider my-4" align="left">
             <p class="text-white-75 font-weight-light mb-5">
               <i class="fa fa-fw fa-birthday-cake"></i>  2018.05.14
-              <br><i class="fa fa-fw fa-shopping-cart"></i> 本地长毛猫
-              <br><i class="fa fa-fw fa-tags"></i> 女王，酷，警惕，好奇
-              <br><i class="fa fa-fw fa-heart"></i> 吃的，零食是生命里的全部
+              <br><i class="fa fa-fw fa-shopping-cart"></i> <span data-i18n="macy.breed">本地长毛猫</span>
+              <br><i class="fa fa-fw fa-tags"></i> <span data-i18n="macy.tags">女王，酷，警惕，好奇</span>
+              <br><i class="fa fa-fw fa-heart"></i> <span data-i18n="macy.likes">吃的，零食是生命里的全部</span>
             </p>
           </div>
           <div class="col-lg-2 align-self-center" align=right>
@@ -93,9 +105,9 @@
             <hr class="divider my-4" align="right">
             <p class="text-white-75 font-weight-light mb-5">
               2018.12.18 <i class="fa fa-fw fa-birthday-cake"></i>
-              <br>蓝手套色布偶猫 <i class="fa fa-fw fa-shopping-cart"></i>
-              <br>粘人，呆萌，大智若愚，混世大魔王 <i class="fa fa-fw fa-tags"></i>
-              <br>玩具，铲屎官头发，玩水 <i class="fa fa-fw fa-heart"></i>
+              <br><span data-i18n="miki.breed">蓝手套色布偶猫</span> <i class="fa fa-fw fa-shopping-cart"></i>
+              <br><span data-i18n="miki.tags">粘人，呆萌，大智若愚，混世大魔王</span> <i class="fa fa-fw fa-tags"></i>
+              <br><span data-i18n="miki.likes">玩具，铲屎官头发，玩水</span> <i class="fa fa-fw fa-heart"></i>
             </p>
           </div>
           <div class="col-lg-2"></div>
@@ -109,7 +121,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="mt-0">欢迎订阅</h2>
+          <h2 class="mt-0"><span data-i18n="subscribe">欢迎订阅</span></h2>
           <hr class="divider my-4">
         </div>
       </div>
@@ -143,7 +155,7 @@
           <i class="fa fa-fx fa-weibo fa-5x text-primary"></i>
           <h3 class="h4 mb-2">
             <a class="text-primary pointer" href="https://www.weibo.com/catniphy" target="_blank">
-              微博 <i class="fa fa-external-link"></i>
+              <span data-i18n="nav.weibo">微博</span> <i class="fa fa-external-link"></i>
             </a>
           </h3>
         </div>
@@ -160,7 +172,7 @@
             <img class="img-fluid" src="img/portfolio/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name">
-                好奇的Macy
+                <span data-i18n="image.curious-macy">好奇的Macy</span>
               </div>
             </div>
           </a>
@@ -170,7 +182,7 @@
             <img class="img-fluid" src="img/portfolio/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name">
-                一起觉觉
+                <span data-i18n="image.sleep-together">一起觉觉</span>
               </div>
             </div>
           </a>
@@ -180,7 +192,7 @@
             <img class="img-fluid" src="img/portfolio/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name">
-                忧郁的Miki
+                <span data-i18n="image.feeling-blue">忧郁的Miki</span>
               </div>
             </div>
           </a>
@@ -190,7 +202,7 @@
             <img class="img-fluid" src="img/portfolio/4.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name">
-                Miki的蓝眼睛
+                <span data-i18n="image.miki-blue-eyes">Miki的蓝眼睛</span>
               </div>
             </div>
           </a>
@@ -200,7 +212,7 @@
             <img class="img-fluid" src="img/portfolio/5.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-name">
-                绝育手术后
+                <span data-i18n="image.neutered">绝育手术后</span>
               </div>
             </div>
           </a>
@@ -210,7 +222,7 @@
             <img class="img-fluid" src="img/portfolio/6.jpg" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-name">
-                盯
+                <span data-i18n="image.gaze">盯</span>
               </div>
             </div>
           </a>
@@ -222,17 +234,21 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - 冬冬酱的猫 catniphy</div>
+      <div class="small text-center text-muted">Copyright &copy; 2025 - <span data-i18n="nav.brand">冬冬酱的猫</span></div>
     </div>
   </footer>
 
   <!-- js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" integrity="sha256-tw5/wId1F+4LyUF2ZJnpRoHNXJ66jrK3IGhfq4LhLjY=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+  <script src="https://unpkg.com/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+  <script src="https://unpkg.com/i18next@23.10.1/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@2.5.1/i18nextHttpBackend.min.js"></script>
+  <script src="https://unpkg.com/i18next-browser-languagedetector@7.1.0/i18nextBrowserLanguageDetector.min.js"></script>
 
   <!-- Custom -->
   <script src="js/catniphy.js"></script>
+  <script src="js/i18n-init.js" defer></script>
 </body>
 </html>
